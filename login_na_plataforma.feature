@@ -7,19 +7,19 @@ Para visualizar meus pedidos
 
 Cenário: Login com dados válidos
 Dado que estou na página de login
-Quando preencher o campo "email" com "<email>" e o campo "senha" com "<senha>"
+Quando preencher o campo "email" e o campo "senha" 
 E clicar no botão "Entrar"
 Então sou redirecionado para a tela de checkout
 
 Cenário: Login com campos inválidos
 Dado que estou na página de login
-Quando preencher o campo "email" com "<email>" e o campo "senha" com "<senha>"
+Quando preencher o campo "email" e o campo "senha" 
 E clicar no botão "Entrar"
 Então vejo uma mensagem de alerta informando "Usuário ou senha inválidos"
 
 Esquema do Cenário: Login com dados válidos
 Dado que estou na página de login
-Quando preencher o campo "email" com "<email>" e o campo "senha" com "<senha>"
+Quando preencher o campo "email" e o campo "senha" 
 E clicar no botão "Entrar"
 Então sou redirecionado para a tela de checkout
 
